@@ -1,0 +1,17 @@
+# envs
+.venv/
+__pycache__/
+*.pyc
+
+# datasets (auto-downloaded; see README)
+data/
+nanochat_kuramoto/data/
+
+# upstream nanochat clone (separate repo; we only port its architecture)
+nanochat/
+
+# scratch
+*.log
+
+# NOTE: checkpoints/ and samples/ ARE committed so the repo is testable
+# without retraining (small: ~19MB checkpoints, <400KB samples).
